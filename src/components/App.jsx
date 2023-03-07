@@ -26,7 +26,6 @@ export class App extends Component {
       this.setState({ contacts: parsedContacts });
       return;
     }
-    this.setState(this.state.contacts);
   }
 
   componentDidUpdate(_, prevState) {
